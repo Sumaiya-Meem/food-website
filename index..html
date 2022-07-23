@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--swipper link-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header section start-->
+     <header>
+         <a href="#" class="logo"><i class="fas fa-utensils"></i>Pareto</a>
+         <nav class="navbar">
+           <a href="#home" class="active">home</a>
+           <a href="#dishes">dishes</a>
+           <a href="#about">about</a>
+           <a href="#order">order</a>
+           <a href="#contact">contact</a>
+         </nav>
+         <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+         </div>
+     </header>
+    <!--header section end-->
+<!--**************************-->
+    <!--form section start-->
+    <form action="" id="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!--form section end-->
+
+    <!--home section start-->
+      <section class="home" id="home">
+          <div class="swiper home-slider">
+              <div class="swiper-wrapper wrapper">
+                  <div class="swiper-slide slide">
+                      <div class="content">
+                        <span>our special dish</span>
+                        <h3>Chicken Burger</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis est incidunt odit.</p>
+                        <a href="form.html" class="btn btn-gradient">Order Now</a>
+                      </div>
+                      <div class="img">
+                          <img src="image/burger3.jpg" alt="image">
+                      </div>
+                 </div> <!--slider-div-end-->
+                 <div class="swiper-slide slide">
+                    <div class="content">
+                      <span>our special dish</span>
+                      <h3>Fench Fry</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis est incidunt odit.</p>
+                      <a href="form.html" class="btn btn-gradient">Order Now</a>
+                    </div>
+                    <div class="img">
+                        <img src="image/french.jpg" alt="image">
+                    </div>
+               </div> <!--slider-div-end-->
+               <div class="swiper-slide slide">
+                <div class="content">
+                  <span>our special dish</span>
+                  <h3>Beef Pizza</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis est incidunt odit.</p>
+                  <a href="form.html" class="btn btn-gradient">Order Now</a>
+                </div>
+                <div class="img">
+                    <img src="image/pizza.jpg" alt="image">
+                </div>
+           </div> <!--slider-div-end-->
+           <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>Special Drink</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis est incidunt odit.</p>
+              <a href="form.html" class="btn btn-gradient">Order Now</a>
+            </div>
+            <div class="img">
+                <img src="image/drink.jpg" alt="image">
+            </div>
+       </div> <!--slider-div-end-->
+    </div>
+        <div class="swiper-pagination"></div>
+        </div> <!--home-slider-div-end-->
+      </section>
+    <!--home section end-->
+
+ <!--dishes section start-->
+<section class="dishes" id="dishes">
+  <h3 class="sub-heading">our dishes</h3>
+  <h1 class="heading">popular dishes</h1>
+  <div class="box-container">
+    <div class="box">
+      <a href="#" class="fas fa-heart"></a>
+      <img src="image/burger2.jpg" alt="image">
+      <h3>tasty food</h3>
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <span>$ 15.00</span>
+      <a href="form.html" class="btn btn-gradient">order now</a>
+    </div>
+    <div class="box">
+      <a href="#" class="fas fa-heart"></a>
+      <img src="image/sandwich.jpg" alt="image">
+      <h3>tasty food</h3>
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <span>$ 15.00</span>
+      <a href="form.html" class="btn btn-gradient">order now</a>
+    </div>
+    <div class="box">
+      <a href="#" class="fas fa-heart"></a>
+      <img src="image/french3.jpg" alt="image">
+      <h3>tasty food</h3>
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <span>$ 15.00</span>
+      <a href="form.html" class="btn btn-gradient">order now</a>
+    </div>
+    <div class="box">
+      <a href="#" class="fas fa-heart"></a>
+      <img src="image/slice-pizza.jpg" alt="image">
+      <h3>tasty food</h3>
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <span>$ 15.00</span>
+      <a href="form.html" class="btn btn-gradient">order now</a>
+    </div>
+    <div class="box">
+      <a href="#" class="fas fa-heart"></a>
+      <img src="image/gril3.jpg" alt="image">
+      <h3>tasty food</h3>
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <span>$ 15.00</span>
+      <a href="form.html" class="btn btn-gradient">order now</a>
+    </div>
+    <div class="box">
+      <a href="#" class="fas fa-heart"></a>
+      <img src="image/dessert.jpg" alt="image">
+      <h3>tasty food</h3>
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <span>$ 15.00</span>
+      <a href="form.html" class="btn btn-gradient">order now</a>
+    </div>
+       
+  </div>
+       
+     </div><!--box-contianer-->
+     </section>
+<!--dishes-section end-->
+
+<!--about-section start-->
+<secttion class="about" id="about">
+  <h3 class="sub-heading">about us</h3>
+  <h1 class="heading">why choose us</h1>
+  <div class="row">
+      <div class="image">
+        <img src="image/rice.jpg" alt="image">
+      </div>
+      <div class="content">
+        <h3>best food in the country</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta necessitatibus nemo eum vel amet reprehenderit est eveniet eius 
+          suscipit at consectetur laudantium doloribus autem, porro possimus, nobis repudiandae dolorum. Magnam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rerum ad esse distinctio hic nulla 
+          fuga aspernatur fugit amet voluptate.</p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>free delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>esay payment</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div><!--icons-container-div-end-->
+          <a href="#" class="btn">learn more</a>
+      </div>  <!--content-div-end-->
+  </div><!--row-div-end-->
+</secttion>
+<!--about-section end-->
+<secttion class="about-chefs" id="about">
+  <h1 class="heading">our chefs</h1>
+  <div class="row">
+      <div class="box-container">
+        <div class="box">
+          <img src="image/chef.jpg" alt="image">
+          <div class="info">
+            <h2>Sekh Kobir</h2>
+            <p>head chef</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/chef.jpg" alt="image">
+          <div class="info">
+            <h2>Runa Khan</h2>
+            <p>head chef</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/chef.jpg" alt="image">
+          <div class="info">
+            <h2>Team Mk</h2>
+            <p>head chef</p>
+          </div>
+        </div>
+      </div><!--box-container-div-->
+    </div><!--row-div-->
+</secttion>
+
+<!--***************************************-->
+<!--contact section start-->
+<footer class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="footer-item">
+         <h3>Our location</h3>
+         <p>abc street section-12<br>mirpur -1201</p>
+      </div>
+      <div class="footer-item">
+        <h3>opening hour</h3>
+        <p>monday to sunday<br>9:00 AM-11:00 PM</p>
+      </div>
+      <div class="footer-item">
+        <h3>contact us</h3>
+        <p>91 25 8712 09</p>
+        <p>info@gmail.com</p>
+        <div class="social-link">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="copyright">
+        <p class="thanks">Thanks For Stay With Us</p>
+        <p class="enjoy">Enjoy Your Hungry Time</p>
+      </div>
+    </div>
+      <div class="copy"><p>&copy;2022 -design by meem</p></div>
+  </div>
+</footer>
+<!--contact section end-->
+<!--***************************************-->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
